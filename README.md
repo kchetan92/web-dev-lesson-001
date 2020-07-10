@@ -32,7 +32,35 @@ A typical web page has three distinct files associated with it:
 
 For this task, and the remainder of the lesson, I'd suggest you to use Google Chrome. It is one of the most popular web browsers out there and has developer friendly tools built into it. If you don't have it on your computer, please [install Google Chrome](https://www.google.com/chrome/) before continuing.
 
-- Open apple.com : It's a typical website with good design and lots of content.
-- Right click on the page and click on "Inspect"
+Lets go to apple.com, and look at its source code.
 
-  ![Right click to see the dropdown](./assets/1_inspect.png)
+If you have an apple computer, look for "View" menu at the top of the browser, then navigate to View > Developer > Source code.
+
+For Windows computer, right click on the page, and click on "View Page Source" And this is what an HTML file looks like:
+
+![Source HTML file](./assets/1_source.png)
+
+An HTML page is made up of a lot of tags. Some tags have text in them, and others have more tags inside them. But what is a tag? A typical tag is structured like this:
+
+```html
+<p>Hello World!</p>
+```
+
+This is a p tag. There are many other like it like div, h1, ul etc. And they all have different use cases.
+Tag starts with the tag name(p) enclosed in angle brackets(<,>) and ends with a closing tag, which is similar but has a forward slash as well.
+
+Scroll down the file and look for familiar english words in the file, you should be able to spot some familiar text from the website.
+
+> _**Task!**: Use the search feature (Ctrl/Cmd + F) to find the text "iPhone 11". Read the HTML tags and text around this text._ The HTML file contains all the text which is visible on the page, and the tags are used to structure it.
+
+## Section 2: Lets hack HTML
+
+- Next, lets checkout the Chrome Developer tools. Right click on the page and click on "Inspect"
+
+  ![Right click to see the dropdown](./assets/2_inspect.png)
+
+- You should see the following window open in your browser. This window is called DevTools
+
+  ![Chrome devtools](./assets/2_devtools.png)
+
+  Devtools is a complicated looking tool, but it's pretty useful. The text on the left is the HTML file of this web page.
