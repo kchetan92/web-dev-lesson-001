@@ -1,4 +1,4 @@
-# WEB Development : Kicking the tyres
+# WEB Development : Kicking the tyres 🖥️ 💪
 
 If you're reading this in 2020, I don't think I need to talk about how prevalent the internet is. You're probably reading this online on a web browser. This website is teaching you how to make more of its kind! Isn't that wonderful? Before we begin, I want to address some common questions that I think you might have.
 
@@ -6,7 +6,7 @@ If you're reading this in 2020, I don't think I need to talk about how prevalent
 
 You're right! These websites builders are amazing. They have beautiful templates to get you started, they're customizable and fairly easy to learn. But if you think of making websites as a creative tool (which it is!), then these services are fairly restrictive. Imagine trying to make an oil painting with a bunch of stencils or stickers. It'd be difficult to achieve what you're aiming for with a limited set to tools.
 
-**But I don't like coding**
+**But I don't like coding 😠**
 
 Coding can be frustrating sometimes, I don't blame you. For all the amazing things that the computers can do, they're pretty dumb. You have to write instructions for each and every step to make it work. And simple mistakes like a missing punctuation can completely break the code.
 
@@ -51,16 +51,32 @@ Tag starts with the tag name(p) enclosed in angle brackets(<,>) and ends with a 
 
 Scroll down the file and look for familiar english words in the file, you should be able to spot some familiar text from the website.
 
-> _**Task!**: Use the search feature (Ctrl/Cmd + F) to find the text "iPhone 11". Read the HTML tags and text around this text._ The HTML file contains all the text which is visible on the page, and the tags are used to structure it.
+> _**Task!**: Use the search feature (Ctrl/Cmd + F) in source code to find the text "iPhone 11". Read the HTML tags and text around this text._
+
+The HTML file contains all the text which is visible on the page, and the tags are used to arrange them.
 
 ## Section 2: Lets hack HTML
 
-- Next, lets checkout the Chrome Developer tools. Right click on the page and click on "Inspect"
+Next, lets checkout the Chrome Developer tools. Go back to apple.com and right click on the page and click on "Inspect"
 
-  ![Right click to see the dropdown](./assets/2_inspect.png)
+![Right click to see the dropdown](./assets/2_inspect.png)
 
-- You should see the following window open in your browser. This window is called DevTools
+You should see the following window open in your browser. This window is called **DevTools.**
 
-  ![Chrome devtools](./assets/2_devtools.png)
+![Chrome devtools](./assets/2_devtools.png)
 
-  Devtools is a complicated looking tool, but it's pretty useful. The text on the left is the HTML file of this web page.
+Devtools looks complicated, and it's pretty useful. The text on the left is the HTML file of this web page. It's the same HTML text that you saw in the page source, but it is formatted in a much better way.
+
+Since HTML determines the text on the page, can we change the HTML to change the text on the page? Lets find out. As of today, the apple homepage has a picture of iPhone SE, with text "Starting at $399". Lets find this text in the DevTools. Use the search option (Ctrl/Cmd + F) to get the search bar, now type "Starting at $399" to find this text.
+
+![Search text](./assets/2_search_text.png)
+
+Double click on this text to reveal a text input field. Lets change $399 to $20 and press enter. The website should reflect your changes.
+
+![Modified HTML](./assets/2_cheap_iphone.png)
+
+Wow! Did you just hack the Apple website 😱??? Not really, you just changed the page for yourself. If you reload the page, your changes will vanish. On the brighter side, you now know how HTML files work!
+
+## Section 3: Change colors with CSS
+
+The section on the right is the
