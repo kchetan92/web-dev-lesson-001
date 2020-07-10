@@ -12,7 +12,7 @@ Coding can be frustrating sometimes, I don't blame you. For all the amazing thin
 
 But as you practice, you'll get a hang of it. It's like riding a bicycle. So, hang on! Also we'll discuss only HTML, CSS in this course which are not programming languages in strict sense. If you guys like this, then I can probably make a lesson on JavaScript as well.
 
-**Who should do this lesson?**
+**Who should read this lesson?**
 
 This lesson is as basic as it gets! If you have NEVER tried web development and words like HTML, CSS make no sense to you, then this lesson is for you. I have also geared this course for a much younger audience.
 
@@ -29,3 +29,10 @@ A typical web page has three distinct files associated with it:
 ---
 
 ## Section 1: Lets look at some source code.
+
+For this task, and the remainder of the lesson, I'd suggest you to use Google Chrome. It is one of the most popular web browsers out there and has developer friendly tools built into it. If you don't have it on your computer, please [install Google Chrome](https://www.google.com/chrome/) before continuing.
+
+- Open apple.com : It's a typical website with good design and lots of content.
+- Right click on the page and click on "Inspect"
+
+  ![Right click to see the dropdown](./assets/1_inspect.png)
